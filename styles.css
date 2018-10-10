@@ -1,0 +1,67 @@
+*
+{
+    cursor: none !important;
+}
+body
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+iframe
+{
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    left: 100vw;
+    top: 0px;
+}
+
+.timerback
+{
+    width: 100vw;
+    height: 10px;
+
+    position: absolute;
+    left: 0px;
+    top: calc(100vh - 10px);
+    z-index: 1;
+
+    background-color: #CFD8DC;
+}
+.timer
+{
+    width: 0px;
+    height: 100%;
+
+    left: 0px;
+    top: 0px;
+
+    background-color: #F44336;
+
+    animation: time 10s linear 0s infinite forwards;
+}
+@keyframes time
+{
+    from {width: 0vw;}
+    to   {width: 100vw;}
+}
+
+.slideOut
+{
+    animation: slideOutAnim 2s ease 0s 1 forwards;
+}
+.slideIn
+{
+    animation: slideInAnim 2s ease 0s 1 forwards;
+}
+@keyframes slideOutAnim
+{
+    from {left: 0vw;}
+    to   {left: -100vw;}
+}
+@keyframes slideInAnim
+{
+    from {left: 100vw;}
+    to   {left: 0vw;}
+}
