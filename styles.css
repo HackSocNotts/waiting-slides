@@ -6,6 +6,7 @@ body
 {
     overflow-x: hidden;
     overflow-y: hidden;
+    text-align: center;
 }
 iframe
 {
@@ -17,6 +18,23 @@ iframe
     top: 0px;
 }
 
+.loading
+{
+    font-family: "Cabin", sans-serif;
+    color: #52B547;
+    font-size: 10em;
+    font-weight: 700;
+
+    width: 100vw;
+
+    position: absolute;
+    margin: 0px;
+    top: calc(50vh - 97px);
+    left: 0px;
+
+    text-shadow: 0px 0px 10px #52B547;
+}
+
 .timerback
 {
     width: 100vw;
@@ -24,7 +42,7 @@ iframe
 
     position: absolute;
     left: 0px;
-    top: calc(100vh - 10px);
+    top: 100vh;
     z-index: 1;
 
     background-color: #CFD8DC;
@@ -45,6 +63,15 @@ iframe
 {
     from {width: 0vw;}
     to   {width: 100vw;}
+}
+.slideUp
+{
+    animation: timeSlideUp 2s ease 0s 1 forwards;
+}
+@keyframes timeSlideUp
+{
+    from {top: 100vh;}
+    to   {top: calc(100vh - 10px);}
 }
 
 .slideOut

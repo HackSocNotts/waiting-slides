@@ -14,10 +14,17 @@ function initSlides()
     }
 
     frames = document.querySelectorAll("iframe");
-    timer  = document.querySelector(".timer");
+    timer  = document.querySelector("#timer");
 
-    frames[0].classList.add("slideIn");
     timer.addEventListener("animationiteration", progressSlides, false);
+
+    frames[0].onload = function()
+    {
+        timer.classList.add("timer");
+        timer.parentElement.classList.add("slideUp");
+        frames[0].classList.add("slideIn");
+        document.querySelector(".loading").classList.add("slideOut");
+    };
 }
 
 function progressSlides()
