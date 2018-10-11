@@ -8,6 +8,43 @@
         <div class="content" style="padding-top: 19em;">
             <img class="hacksoclogo" src="../img/hacksoc.png"><br>
             <span class="big-text">Welcome to HackSoc!</span>
+            <br><br><br><br><br><br><br><br><br><br>
+            <span id="time"class="small-text"></span>
         </div>
+        <script>
+            t = document.querySelector("#time");
+            showColon = true;
+
+            updateTime();
+
+            function updateTime()
+            {
+                timeObj = new Date();
+                
+                hours = timeObj.getHours();
+                mins  = timeObj.getMinutes();
+                
+                if (hours < 10)
+                {
+                    hours = "0" + hours;
+                }
+                if (mins < 10)
+                {
+                    mins = "0" + mins;
+                }
+                
+                if (showColon === true)
+                {
+                    time.innerHTML = hours + ":" + mins;
+                    showColon = false;
+                }
+                else
+                {
+                    time.innerHTML = timeObj.getHours() + "<span style='visibility: hidden;'>:</span>" + mins;
+                    showColon = true;
+                }
+                setTimeout(updateTime, 1000);
+            }
+        </script>
     </body>
 </html>
