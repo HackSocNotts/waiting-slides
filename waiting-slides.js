@@ -24,25 +24,40 @@ function initSlides()
         }
     }
 
-    timer  = document.querySelector("#timer");
+    timer           = document.querySelector("#timer");
+    transitionback  = document.querySelector(".transition.back");
+    transitionfront = document.querySelector(".transition.front")
 
     timer.addEventListener("animationiteration", progressSlides, false);
+    transitionback.addEventListener("animationend", clearTransitionClasses, false);
 
     frames[0].onload = function()
     {
         timer.classList.add("timer");
         timer.parentElement.classList.add("slideUp");
-        frames[0].classList.add("slideIn");
-        document.querySelector(".loading").classList.add("slideOut");
+
+        curSlide = frames.length - 1;
+        progressSlides();
     };
 }
 
 function progressSlides()
 {
-    frames[curSlide].classList.remove("slideIn");
-    frames[curSlide].classList.add("slideOut");
+    transitionback.classList.add("slide");
+    transitionfront.classList.add("slide");
 
-    curSlide = (curSlide + 1) % frames.length;
+    setTimeout(function() {
+        frames[curSlide].style.display = "none";
+        curSlide = (curSlide + 1) % frames.length;
+        frames[curSlide].style.display = "block";
+    }, 1000);
+}
 
-    frames[curSlide].classList.add("slideIn");
+function clearTransitionClasses(e)
+{
+    if (e.animationName === "slideout")
+    {
+        transitionback.classList.remove("slide");
+        transitionfront.classList.remove("slide");
+    }
 }

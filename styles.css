@@ -14,8 +14,10 @@ iframe
     height: 100vh;
 
     position: absolute;
-    left: 100vw;
+    left: 0px;
     top: 0px;
+
+    display: none;
 }
 
 .loading
@@ -57,7 +59,7 @@ iframe
 
     background-color: #F44336;
 
-    animation: time 10s linear 0s infinite forwards;
+    animation: time 15s linear 0s infinite forwards;
 }
 @keyframes time
 {
@@ -74,21 +76,54 @@ iframe
     to   {top: calc(100vh - 10px);}
 }
 
-.slideOut
+.transition
 {
-    animation: slideOutAnim 2s ease 0s 1 forwards;
+    width: 120vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0px;
+    left: 100vw;
+
+    clip-path: polygon(10vw 0, 120vw 0, 110vw 100vh, 0 100vh);
 }
-.slideIn
+.transition.back
 {
-    animation: slideInAnim 2s ease 0s 1 forwards;
+    background-color: #27AD1A;
+    z-index: 2;
 }
-@keyframes slideOutAnim
+.transition.back.slide
 {
-    from {left: 0vw;}
-    to   {left: -100vw;}
+    animation: slidein  1s ease-in  0s 1 forwards,
+               slideout 1s ease-out 1.5s 1 forwards;
 }
-@keyframes slideInAnim
+.transition.front
+{
+    background-color: #35E522;
+    z-index: 3;
+}
+.transition.front.slide
+{
+    animation: slidein  1s ease-in  0.2s 1 forwards,
+               slideout 1s ease-out 1.3s 1 forwards;
+}
+.transition.front>img
+{
+    filter: brightness(0%) invert(100%);
+    width: 500px;
+    z-index: 4;
+
+    position: absolute;
+    top: calc(50vh - 250px);
+    left: calc(60vw - 250px);
+}
+@keyframes slidein
 {
     from {left: 100vw;}
-    to   {left: 0vw;}
+    to   {left: -10vw;}
+}
+@keyframes slideout
+{
+    from {left: -10vw;}
+    to   {left: -120vw;}
 }
