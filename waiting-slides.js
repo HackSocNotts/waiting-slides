@@ -4,6 +4,7 @@ fileToFrame = {};
 timer  = null;
 
 document.body.onload = initSlides;
+document.onkeypress = handleKeypress;
 
 function initSlides()
 {
@@ -59,5 +60,29 @@ function clearTransitionClasses(e)
     {
         transitionback.classList.remove("slide");
         transitionfront.classList.remove("slide");
+    }
+}
+
+function handleKeypress(e)
+{
+    if (e.key == " ")
+    {
+        if (document.querySelector("#timer").classList.contains("timer"))
+        {
+            document.querySelector("#timer").classList.remove("timer");
+        }
+        else
+        {
+            document.querySelector("#timer").classList.add("timer");
+        }
+    }
+    else if (e.key == "Enter")
+    {
+        document.querySelector("#timer").classList.remove("timer");
+        progressSlides();
+
+        setTimeout(function() {
+                document.querySelector("#timer").classList.add("timer");
+            }, 10);
     }
 }
