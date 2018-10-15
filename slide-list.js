@@ -4,5 +4,6 @@ slides = [
     "slides/python-workshops/python-worksheet.html",
     "slides/general/social.html",
     "slides/general/upcomingevents.html",
+    "slides/general/upcomingevents3.html",
     "slides/general/upcomingevents2.html"
 ];
