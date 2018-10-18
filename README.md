@@ -12,7 +12,7 @@ slides = [
     "slides/myThirdSlide.html"
 ]
 ```
-If you would like to change the amount of time before each slide transitions, then change the `animation` style for the `.timer` class in [styles.css](styles.css):
+If you would like to change the amount of time before each slide transitions, then change the `animation` style for the `.timer` class in [styles.css](https://github.com/JamesMCo/waiting-slides/blob/master/styles.css#L62):
 ```css
 .timer
 {
