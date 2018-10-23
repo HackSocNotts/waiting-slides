@@ -1,0 +1,54 @@
+*
+{
+    cursor: none !important;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    font-family: "Cabin", sans-serif;
+    color: #F5F5F5;
+    
+    animation: bck 5s ease 0s infinite alternate;
+
+    text-align: center;
+    background: url('../img/hacksheffield.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.content
+{
+    vertical-align: middle;
+}
+
+@keyframes bck
+{
+    from {background-color: #52B547;}
+    to   {background-color: #4eac44;}
+}
+
+.hacksoclogo
+{
+    filter: brightness(0%) invert(100%);
+    width: 10%;
+}
+.big-text
+{
+    font-size: 10em;
+    font-weight: 700;
+}
+.mid-text
+{
+    font-size: 7.5em;
+    font-weight: 600;
+}
+.small-text
+{
+    font-size: 5em;
+    font-weight: 400;
+}
