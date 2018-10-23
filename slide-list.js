@@ -7,5 +7,6 @@ slides = [
     "slides/general/membershiprequired.html",
     "slides/general/upcomingevents.html",
     "slides/general/upcomingevents3.html",
-    "slides/general/upcomingevents2.html"
+    "slides/general/upcomingevents2.html",
+    "slides/hacksheffield/hacksheffield.html"
 ];
