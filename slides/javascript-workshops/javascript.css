@@ -1,0 +1,47 @@
+*
+{
+    cursor: none !important;
+}
+body
+{
+    font-family: "Cabin", sans-serif;
+    color: #F5F5F5;
+    
+    animation: bck 5s ease 0s infinite alternate;
+
+    text-align: center;
+}
+.content
+{
+    vertical-align: middle;
+    padding-top: 5em;
+}
+
+@keyframes bck
+{
+    from {background-color: #4FC3F7;}
+    to   {background-color: #29B6F6;}
+}
+
+.javascriptlogo
+{
+    border-radius: 30px 60px;
+    height: 203px;
+    padding-left: calc(398px);
+    background-color: #F0DB4F;
+}
+.big-text
+{
+    font-size: 10em;
+    font-weight: 700;
+}
+.mid-text
+{
+    font-size: 7.5em;
+    font-weight: 600;
+}
+.small-text
+{
+    font-size: 5em;
+    font-weight: 400;
+}
