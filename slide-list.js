@@ -3,6 +3,7 @@ slides = [
     // "slides/general/membershiprequired.html",
     // "slides/general/membershipstickers.html",
     "slides/localhost/blockchain-basics.html",
+    "slides/localhost/checkin.html",
     // "slides/javascript-workshops/javascript-worksheet.html",
     "slides/general/social.html",
     // "slides/general/membershiprequired.html",
