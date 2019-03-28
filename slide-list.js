@@ -2,7 +2,7 @@ slides = [
     "slides/general/hacksoc.html",
     // "slides/general/membershiprequired.html",
     // "slides/general/membershipstickers.html",
-    "slides/cybersecurity-workshops/cybersecurity.html",
+    "slides/cpp-workshops/cpp.html",
     "slides/general/social.html",
     // "slides/general/membershiprequired.html",
     // "slides/general/membershipstickers.html",
