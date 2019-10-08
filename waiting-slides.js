@@ -9,7 +9,19 @@ document.onkeypress = handleKeypress;
 function initSlides()
 {
     for (var i = 0; i < slides.length; i++) {
-        if (slides.indexOf(slides[i]) === i)
+        if (slides[i] === "upcomingevents")
+        {
+            for (var j = 0; j < upcoming_events.length; j += 2)
+            {
+                frame = document.createElement("iframe");
+                frame.src = "slides/general/upcomingevents.html?events=" + JSON.stringify(upcoming_events.slice(j, j+2));
+                frame.frameBorder = "0";
+                document.querySelector("body").appendChild(frame);
+
+                frames.push(frame);
+            }
+        }
+        else if (slides.indexOf(slides[i]) === i)
         {
             frame = document.createElement("iframe");
             frame.src = slides[i];
