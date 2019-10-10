@@ -97,4 +97,8 @@ function handleKeypress(e)
                 document.querySelector("#timer").classList.add("timer");
             }, 10);
     }
+    else if (e.key == "i")
+    {
+        window.location = "https://intro.hacksoc.net";
+    }
 }
