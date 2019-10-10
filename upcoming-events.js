@@ -20,10 +20,3 @@ upcoming_events = [
 		"line3": ""
 	}
 ]
-for (i = 0; i < upcoming_events.length; i++) {
-	upcoming_events[i] = {
-		"line1": upcoming_events[i].line1.replace("@", "<span style=\"font-family: 'Arial', sans-serif;\">@</span>"),
-		"line2": upcoming_events[i].line2.replace("@", "<span style=\"font-family: 'Arial', sans-serif;\">@</span>"),
-		"line3": upcoming_events[i].line3.replace("@", "<span style=\"font-family: 'Arial', sans-serif;\">@</span>")
-	};
-}
