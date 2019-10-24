@@ -19,21 +19,21 @@ body
 
 @keyframes bck
 {
-    from {background-color: #582D41;}
-    to   {background-color: #542B3E;}
+    from {background-color: #152347;}
+    to   {background-color: #1B2D5B;}
 }
 
 .logo
 {
     width: 35%;
-    background-color: #2B81D9;
+    background-color: #1595FF;
     border-radius: 20px;
 }
 .big-text
 {
     font-size: 10em;
     font-weight: 700;
-    color: #FF9A56;
+    color: #FF00AA;
 }
 .mid-text
 {
