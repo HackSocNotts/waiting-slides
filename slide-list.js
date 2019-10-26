@@ -1,6 +1,7 @@
 slides = [
     "slides/general/hacksoc.html",
     "slides/python-workshops/python.html",
+    "slides/python-workshops/python-worksheet.html",
     "slides/general/social.html",
     "upcomingevents",
     "slides/general/hoodies.html",
