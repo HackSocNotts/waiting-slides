@@ -1,10 +1,5 @@
 upcoming_events = [
 	{
-		"line1": "Saturday October 26th 10:00, COMP-A32:",
-		"line2": "Python Crash Course",
-		"line3": ""
-	},
-	{
 		"line1": "Monday October 28th 18:30, COMP-C60:",
 		"line2": "Extraordinary General Meeting",
 		"line3": "hacksoc.net/nominate"
