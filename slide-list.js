@@ -1,7 +1,6 @@
 slides = [
     "slides/general/hacksoc.html",
-    "slides/localhost/csharp-with-unity.html",
-    "slides/localhost/checkin.html",
+    "slides/hardware/hardware.html",
     "slides/general/social.html",
     "upcomingevents",
     "slides/general/hoodies.html",
