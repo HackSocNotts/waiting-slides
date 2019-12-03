@@ -1,12 +1,7 @@
 upcoming_events = [
 	{
-		"line1": "Thursday, November 28th 6:30pm, COMP-A32:",
-		"line2": "Hardware Meetup",
-		"line3": ""
-	},
-	{
-		"line1": "Friday, November 29th 6:30pm, COMP-C60",
-		"line2": "CyberTeam Meet-Up",
-		"line3": ""
+		"line1": "Saturday, December 7th 9:00am, COMP-A32",
+		"line2": "MLH Local Hack Day: Build",
+		"line3": "A 12 hour Global Hack Day"
 	}
 ]

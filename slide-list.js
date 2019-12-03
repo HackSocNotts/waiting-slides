@@ -1,8 +1,8 @@
 slides = [
     "slides/general/hacksoc.html",
-    "slides/cybersecurity-workshops/cybersecurity.html",
+    "slides/speaker-event/vikramchhapwale-productdesigninindustry.html",
     "slides/general/social.html",
     "upcomingevents",
-    "slides/general/hoodies.html",
-    "slides/general/upcomingevents_hacknotts.html"
+    "slides/adventofcode/adventofcode.html",
+    "slides/general/hoodies.html"
 ];
