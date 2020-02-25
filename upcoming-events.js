@@ -1,7 +1,17 @@
 upcoming_events = [
     {
-        "line1": "February 15th - February 16th",
-        "line2": "CovHack",
-        "line3": "Details at hacksoc.net/covhack-2020"
+        "line1": "Thursday, February 27th 7:00pm, COMP-A32",
+        "line2": "Programming Café",
+        "line3": ""
+    },
+    {
+        "line1": "Friday, February 28th 7:00pm, COMP-C60",
+        "line2": "Cyber Team Meetup",
+        "line3": ""
+    },
+    {
+        "line1": "Saturday, March 7th 1:00pm, COMP-A32",
+        "line2": "Kotlin - From Start to Somewhere",
+        "line3": ""
     }
 ]
