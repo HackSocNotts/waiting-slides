@@ -1,22 +1,32 @@
 upcoming_events = [
   {
-    line1: "Friday, October 9 7:00 PM, Online",
-    line2: "Cyber Security Workshop",
-    line3: "Presented by Ryan Hardwick",
-  },
-  {
-    line1: "Tuesday, October 13 7:00 PM, Online",
-    line2: ".NET Core on the Raspberry Pi",
-    line3: "Presented by Pete Gallagher",
-  },
-  {
     line1: "Friday, October 16 7:00 PM, Online",
-    line2: "Intro to Pen testing the Eternal Blue Machine",
+    line2: "Eternal Blue Machine Pen Testing Demonstration",
     line3: "Presented by Tash Bayliss",
+  },
+  {
+    line1: "Tuesday, October 23 7:00 PM, Online",
+    line2: "Discord Bots Workshop",
+    line3: "Presented by Peter Taylor",
   },
   {
     line1: "Friday, October 23 7:00 PM, Online",
-    line2: "Hands on with Pen Testing the Enteral Blue Machine ",
-    line3: "Presented by Tash Bayliss",
+    line2: "Pen Testing the Enteral Blue Machine Workshop",
+    line3: "Presented by Ryan Hardwick",
+  },
+  {
+    line1: "Tuesday, October 27 7:00 PM, Online",
+    line2: "Build and Host Your Portfolio Website for Free",
+    line3: "Presented by Aaron Osher",
+  },
+  {
+    line1: "Friday, October 30 7:00 PM, Online",
+    line2: "Pen Testing on Try Hack Me",
+    line3: "Presented by Ryan Hardwick",
+  },
+  {
+    line1: "Tuesday, November 3 7:00 PM, Online",
+    line2: "Building for Slack in .NET",
+    line3: "Presented by Steven Pears",
   },
 ];
