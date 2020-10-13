@@ -5,7 +5,7 @@ upcoming_events = [
     line3: "Presented by Tash Bayliss",
   },
   {
-    line1: "Tuesday, October 23 7:00 PM, Online",
+    line1: "Tuesday, October 20 7:00 PM, Online",
     line2: "Discord Bots Workshop",
     line3: "Presented by Peter Taylor",
   },
