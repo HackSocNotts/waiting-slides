@@ -1,15 +1,5 @@
 upcoming_events = [
   {
-    line1: "Friday, October 16 7:00 PM, Online",
-    line2: "Eternal Blue Machine Pen Testing Demonstration",
-    line3: "Presented by Tash Bayliss",
-  },
-  {
-    line1: "Tuesday, October 20 7:00 PM, Online",
-    line2: "Discord Bots Workshop",
-    line3: "Presented by Peter Taylor",
-  },
-  {
     line1: "Friday, October 23 7:00 PM, Online",
     line2: "Pen Testing the Enteral Blue Machine Workshop",
     line3: "Presented by Ryan Hardwick",
