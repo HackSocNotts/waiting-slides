@@ -1,6 +1,6 @@
 slides = [
   "slides/general/hacksoc.html",
-  "slides/speaker-event/2021-02-02-dylan-beattie.html",
+  "slides/speaker-event/2021-02-16-Katie Walker.html",
   "slides/general/social.html",
   "upcomingevents",
   "slides/general/upcomingevents_hacknotts.html",
