@@ -1,32 +1,22 @@
 upcoming_events = [
   {
-    line1: "Friday, February 19 7:00 PM, Online",
+    line1: "Friday, March 12 7:00 PM, Online",
     line2: "Pen Testing on Try Hack Me",
     line3: "Presented by Ryan Hardwick",
   },
   {
-    line1: "Tuesday, February 23 7:00 PM, Online",
-    line2: "Packaging your application for Linux",
-    line3: "Presented by Peter Taylor",
+    line1: "Tuesday, March 16 7:00 PM, Online",
+    line2: "3D printed Bionic Hand a little IOT and a Xamarin Mobile App",
+    line3: "Presented by Clifford Agius",
   },
   {
-    line1: "Friday, February 26 7:00 PM, Online",
+    line1: "Friday, March 19 7:00 PM, Online",
     line2: "Pen Testing on Try Hack Me",
     line3: "Presented by Ryan Hardwick",
   },
   {
-    line1: "Tuesday, March 2 7:00 PM, Online",
-    line2: "Diversity Vs. Inclusion in the Tech Industry",
-    line3: "Presented by Dwayne Codling",
-  },
-  {
-    line1: "Friday, March 5 7:00 PM, Online",
-    line2: "Pen Testing on Try Hack Me",
-    line3: "Presented by Ryan Hardwick",
-  },
-  {
-    line1: "Tuesday, March 9 7:00 PM, Online",
-    line2: "Discord Bots Workshop",
-    line3: "Presented by Alexi Dewfall",
+    line1: "Tuesday, March 30 7:00 PM, Online",
+    line2: "Computerphile, Hello World!",
+    line3: "Presented by Sean Riley",
   },
 ];
